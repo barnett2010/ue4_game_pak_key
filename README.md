@@ -2,14 +2,20 @@
 ue4 pak aes key crypto
 
 https://github.com/allcoolthingsatoneplace/UnrealPakTool
-
+打开unrealpaktool。
 把key放到crypto.json里。把pak放进目录，再双击UnrealPakExtractCrypto.bat解包。
+这是一次性将pak全部提取。
+
+也可以用unrealpakviewer单独提取。有gui界面。
+https://github.com/jashking/UnrealPakViewer
+
 
 pak就是个压缩包，游戏引擎将游戏文件打包在一起。解包就是解压缩。
 
-得到的文件经过引擎处理，还不能直接用。
+得到的文件已经经过引擎处理，还不能直接用。
 
 需要用umodel再提取。可以获取模型，贴图，音乐等。
+https://github.com/gildor2/UEViewer
 
 方便大家做同人作品。
 
